@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --primary-color: rgb(229, 234, 236);
+    --secondary-color: rgba(46, 47, 50, 0.885);
+    --text-color: #000000;
+    --header-font-light: Arial, sans-serif;
+    --header-font-dark: Times New Roman, serif;
+    --paragraph-font-light: Verdana, sans-serif;
+    --paragraph-font-dark: Georgia, serif;
+}
+
+body {
+    font-family: var(--paragraph-font-light);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}

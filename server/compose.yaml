@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=Blogs'
+      - 'POSTGRES_PASSWORD=secret123'
+      - 'POSTGRES_USER=nizar'
+    ports:
+      - '5432:5432'

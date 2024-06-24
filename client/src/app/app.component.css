@@ -1,26 +1,29 @@
-.formContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
-.formContainer input{
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+.addbtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
-.formContainer button{
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+.addbtn:hover {
+    background-color: #0056b3;
     cursor: pointer;
 }
+

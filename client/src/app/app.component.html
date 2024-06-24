@@ -1,7 +1,7 @@
-<div>
-  <form class="formContainer" [formGroup]="form" (ngSubmit)="onSubmit()">
-    <input type="text" formControlName="post" placeholder="add your post here">
-   
-    <button type="submit">Submit</button>
-  </form>
+
+<div class="container">"
+   <app-blog-list></app-blog-list>
+   <button (click)="openModal()" aria-label="Add a new document"  class="addbtn"><mat-icon>add</mat-icon></button>
 </div>
+<app-modal></app-modal>
+
